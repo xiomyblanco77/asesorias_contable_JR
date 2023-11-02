@@ -306,11 +306,11 @@ h5{
   cursor: pointer
 }
 
-
+/* 
 footer {
   position: fixed;
   bottom: 0;
-}
+} */
 
 @media (max-height:800px) {
   footer {
