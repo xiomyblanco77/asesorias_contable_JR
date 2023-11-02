@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mooli&display=swap');
+
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Titulos */
+
+
+.hero_area {
+    position: relative;
+    background-color: white;
+    
+  }
+  
+  .header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .header_section .header_top {
+    padding: 15px 0;
+    background-color: #000000;
+  }
+  
+  .header_section .header_top .contact_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .menu-header{
+    position: fixed;
+  }
+  .header_section .header_top .contact_nav a {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+  
+  .header_section .header_top .contact_nav a i {
+    color:#0868c2;
+  }
+  
+  .header_section .header_bottom {
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .carousel-inner{
+    height: 80vh;
+    width: 80%;
+    object-fit: cover;
+}
+
+.carousel-item h5{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* NOSOTROS */
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ffffff
+
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: #191919;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #191919;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.button{
+  background-color: #0868c2;
+  color:white;
+  text-decoration: none;
+  border: 2px solid;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 25px;
+  transition: .4s;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 2px solid  #3e13fa;
+    cursor: pointer;
+}
+
+
+.h2-sub {
+  font-size: 3rem;
+  font-family:'Josefin Sans', sans-serif;
+  color:  #0868c2;
+  font-weight: 600;
+  line-height: .4;
+}
+
+
+.head {
+  color: #fff;
+  font-size: 3.7rem;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: .5rem;
+}
+
+/* servicios */
+
+.ser{
+  padding: 60px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: #000000;
+}
+.global {
+  text-align: center;
+  margin-top: 3.9rem;
+  
+}
+
+.hea-dark {
+  color: #ffffff;
+  letter-spacing: .7rem;
+  margin-right: -.7rem;
+}
+
+.global .h2-sub {
+  letter-spacing: -1px;
+  line-height: .42;
+}
+
+
+.title h2{
+  color:white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center; 
+  min-height: 200px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: #000000;
+}
+
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.box .card{
+  background-color: #191919;
+  border-radius: 30px;
+}
+
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #0868c2;
+}
+
+h5{
+  color: #a8cef1;;
+  font-size: 30px;
+  width: 300;
+  margin-bottom: 15px;
+}
+
+.pra p{
+  color:#ffffff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.card .button{
+  background-color: #0868c2;
+  color:white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #191919;;
+  cursor: pointer
+}
+
+.banner{
+  background-image:linear-gradient(to right, #ad538954, #3b10536c), url(../img/img_9.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.contactame{
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactame p{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  align-content: center;
+  margin: 30px 200px;
+}
+
+.contactame .button-two{
+  background-color:  #0868c2;
+  color:white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.contactame .button-two:hover{
+  background-color: transparent;
+  border: 2px solid  #0868c2;
+  cursor: pointer
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height:800px) {
+  footer {
+      position: static;
+  }
+ 
+}
+
+.footer-distributed {
+  background-color: #2d2a30;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 30%;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+
+.footer-distributed h3 span {
+  color: #0868c2;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #0868c2;
+  text-decoration: none;
+  ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+  color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+  .footer-distributed .footer-center i {
+      margin-left: 0;
+  }
+}
